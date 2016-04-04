@@ -1,6 +1,68 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+$yellow: #fcdb00;
+$source: 'Source Sans Pro', sans-serif;
+nav.navbar {
+	background-color: $yellow;
+	height: 140px;
+	box-sizing: border-box;
+	line-height: 140px;
+	text-align: center;
+	button {
+		position: relative;
+		bottom: 114px;
+	}
+}
+html {
+	font-style: 62.5%;
+}
+h1 {
+	display: inline;
+	font: bold 3.0rem $source;
+}
+.intro {
+	background-color: $yellow;
+	padding-top: 360px;
+	padding-bottom: 140px;
+	h2 {
+		font: bold 3.8rem $source;
+	}
+	p {
+		max-width: 480px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+		margin-bottom: 45px;
+	}
+}
+.features {
+	//text-align: center;
+	text-align: justify;
+	h2 {
+		margin-top: 120px;
+		font-weight: bold;
+		font-size: 3.2rem;
+	}
+	h3 {
+		font-size: 2.2rem;
+		font-weight: bold;
+		display: inline;
+	}
+	p {
+		margin-top: 40px;
+		margin-bottom: 90px;
+	}
+	img { display: inline;
+		float: left;
+		margin-right: 10px;
+		position: relative;
+	//	background-color: red;
 
-@import "compass/reset";
+
+	}
+	.margin {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.col-md-4 {
+		//background-color: yellow;
+	}
+}
