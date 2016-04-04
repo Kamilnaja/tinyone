@@ -1,5 +1,6 @@
 $yellow: #fcdb00;
 $source: 'Source Sans Pro', sans-serif;
+h2 {font-weight: bold;}
 nav.navbar {
 	background-color: $yellow;
 	height: 140px;
@@ -17,6 +18,7 @@ html {
 h1 {
 	display: inline;
 	font: bold 3.0rem $source;
+	text-transform: lowercase;
 }
 .intro {
 	background-color: $yellow;
@@ -64,5 +66,61 @@ h1 {
 	}
 	.col-md-4 {
 		//background-color: yellow;
+	}
+}
+.pricing {
+	text-align: center;
+	h2 {
+		font: bold 3.2rem $source;
+		color: black;
+	}
+}
+.kolo {
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: inline-block;
+
+}
+.img1 {
+background-image: url("../img/myimg1.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-color: #ebebeb;
+}
+.img2 {
+background-image: url("../img/myimg2.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-color: black;
+}
+.img3 {
+background-image: url("../img/myimg3.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-color: #ebebeb;
+}
+.btn-flat {
+	padding: 10px 30px;
+	border-radius: 0px;
+	background-color: transparent;
+	border: 2px solid black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.our-works {
+ h2 {
+ 	text-align: center;
+ }
+ p {
+ 	text-align: center;
+ }
+
+
+}
+.gallery {
+	img {
+		margin-top: 20px;
 	}
 }
