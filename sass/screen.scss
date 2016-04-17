@@ -1,6 +1,6 @@
 $yellow: #fcdb00;
 $source: 'Source Sans Pro', sans-serif;
-h2 {font-weight: bold;}
+
 nav.navbar {
 	background-color: $yellow;
 	height: 140px;
@@ -22,50 +22,37 @@ h1 {
 }
 .intro {
 	background-color: $yellow;
-	padding-top: 360px;
-	padding-bottom: 140px;
+	padding: 360px 0 140px 0;
 	h2 {
 		font: bold 3.8rem $source;
 	}
 	p {
 		max-width: 480px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 40px;
-		margin-bottom: 45px;
+		margin: 40px auto;
 	}
 }
 .features {
-	//text-align: center;
+
 	text-align: justify;
 	h2 {
 		margin-top: 120px;
-		font-weight: bold;
-		font-size: 3.2rem;
+		font: bold 3.2rem $source;
 	}
 	h3 {
-		font-size: 2.2rem;
-		font-weight: bold;
+		font: bold 2.2rem $source;
 		display: inline;
 	}
 	p {
-		margin-top: 40px;
-		margin-bottom: 90px;
+		margin: 40px 0 90px 0;
 	}
 	img { display: inline;
 		float: left;
 		margin-right: 10px;
 		position: relative;
-	//	background-color: red;
-
-
 	}
 	.margin {
 		margin-bottom: 50px;
 		text-align: center;
-	}
-	.col-md-4 {
-		//background-color: yellow;
 	}
 }
 .pricing {
@@ -76,7 +63,6 @@ h1 {
 	}
 }
 .kolo {
-
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -84,43 +70,85 @@ h1 {
 
 }
 .img1 {
-background-image: url("../img/myimg1.png");
-background-repeat: no-repeat;
-background-position: 50% 50%;
-background-color: #ebebeb;
+	background: url("../img/myimg1.png") no-repeat 50% 50%;
+
+
 }
 .img2 {
-background-image: url("../img/myimg2.png");
-background-repeat: no-repeat;
-background-position: 50% 50%;
-background-color: black;
+	background: url("../img/myimg2.png") no-repeat 50% 50%;
+
+
 }
 .img3 {
-background-image: url("../img/myimg3.png");
-background-repeat: no-repeat;
-background-position: 50% 50%;
-background-color: #ebebeb;
+	background: url("../img/myimg3.png") no-repeat 50% 50%;
+
+
 }
-.btn-flat {
-	padding: 10px 30px;
-	border-radius: 0px;
+
+.fig1 {background: url(../img/mykomp1.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig2 {
+	background: url(../img/mykomp2.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig3 {
+	background: url(../img/mykomp3.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig4 {
+	background: url(../img/mykomp4.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig6 {
+	background: url(../img/mykomp5.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig5 {
+	background: url(../img/mykomp6.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig7 {
+	background: url(../img/mykomp7.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.fig8 {
+	background: url(../img/mykomp8.png) no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;}
+.btn-flat 	{
+		padding: 11px 30px;
+	boer-radius: 0px;
 	background-color: transparent;
 	border: 2px solid black;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 .our-works {
- h2 {
- 	text-align: center;
- }
- p {
- 	text-align: center;
- }
+	h2 {
+		text-align: center;
+	}
+	p {
+		text-align: center;
+	}
 
 
 }
 .gallery {
-	img {
-		margin-top: 20px;
+text-align: center;
+	.fig-wrap {
+		display: inline-block;
+		float: none;
+		text-align: none;
+		margin-right: -4px;
+
 	}
 }
