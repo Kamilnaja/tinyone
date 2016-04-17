@@ -45,7 +45,8 @@ h1 {
 	p {
 		margin: 40px 0 90px 0;
 	}
-	img { display: inline;
+	img { 
+		display: inline;
 		float: left;
 		margin-right: 10px;
 		position: relative;
@@ -68,6 +69,7 @@ h1 {
 	border-radius: 50%;
 	display: inline-block;
 
+
 }
 .img1 {
 	background: url("../img/myimg1.png") no-repeat 50% 50%;
@@ -75,7 +77,7 @@ h1 {
 
 }
 .img2 {
-	background: url("../img/myimg2.png") no-repeat 50% 50%;
+	background: url("../img/img2.png") no-repeat 50% 50%;
 
 
 }
@@ -133,14 +135,13 @@ h1 {
 	font-weight: bold;
 }
 .our-works {
+	margin-top: 70px;
 	h2 {
 		text-align: center;
 	}
 	p {
 		text-align: center;
 	}
-
-
 }
 .gallery {
 text-align: center;
