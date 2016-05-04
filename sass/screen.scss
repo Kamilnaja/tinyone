@@ -1,5 +1,6 @@
 $yellow: #fcdb00;
 $source: 'Source Sans Pro', sans-serif;
+@import '../stylesheets/bootstrap.min.css';
 
 nav.navbar {
 	background-color: $yellow;
@@ -9,7 +10,7 @@ nav.navbar {
 	text-align: center;
 	button {
 		position: relative;
-		bottom: 114px;
+		bottom: 114px; 
 	}
 }
 html {
@@ -68,23 +69,15 @@ h1 {
 	height: 100px;
 	border-radius: 50%;
 	display: inline-block;
-
-
 }
 .img1 {
 	background: url("../img/myimg1.png") no-repeat 50% 50%;
-
-
 }
 .img2 {
 	background: url("../img/img2.png") no-repeat 50% 50%;
-
-
 }
 .img3 {
 	background: url("../img/myimg3.png") no-repeat 50% 50%;
-
-
 }
 
 .fig1 {background: url(../img/mykomp1.png) no-repeat;
@@ -127,8 +120,8 @@ h1 {
 	width: 200px;
 	margin: 10px;}
 .btn-flat 	{
-		padding: 11px 30px;
-	boer-radius: 0px;
+	padding: 11px 30px;
+	border-radius: 0px;
 	background-color: transparent;
 	border: 2px solid black;
 	text-transform: uppercase;
