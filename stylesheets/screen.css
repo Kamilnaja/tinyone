@@ -1,10 +1,9 @@
 @import url(../stylesheets/bootstrap.min.css);
-/* line 5, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 nav.navbar {
   background-color: #fcdb00;
   height: 140px;
-  box-sizing: border-box;
-  line-height: 140px;
+  padding-top: 61px;
   text-align: center;
 }
 /* line 11, ../sass/screen.scss */
@@ -14,74 +13,92 @@ nav.navbar button {
 }
 
 /* line 16, ../sass/screen.scss */
-html {
-  font-style: 62.5%;
+.navbar-default {
+  border: 0;
 }
 
 /* line 19, ../sass/screen.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 23, ../sass/screen.scss */
 h1 {
-  display: inline;
   font: bold 3rem "Source Sans Pro", sans-serif;
   text-transform: lowercase;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
+h2 {
+  font: bold 3.8rem "Source Sans Pro", sans-serif;
+}
+
+/* line 31, ../sass/screen.scss */
+.icons {
+  list-style-type: none;
+  float: right;
+}
+/* line 34, ../sass/screen.scss */
+.icons li {
+  display: inline;
+  padding: 15px;
+}
+/* line 37, ../sass/screen.scss */
+.icons li .fa {
+  font-size: 2.0rem;
+}
+
+/* line 42, ../sass/screen.scss */
 .intro {
   background-color: #fcdb00;
   padding: 360px 0 140px 0;
 }
-/* line 27, ../sass/screen.scss */
-.intro h2 {
-  font: bold 3.8rem "Source Sans Pro", sans-serif;
-}
-/* line 30, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .intro p {
   max-width: 480px;
   margin: 40px auto;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .features {
   text-align: justify;
 }
-/* line 38, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .features h2 {
   margin-top: 120px;
-  font: bold 3.2rem "Source Sans Pro", sans-serif;
 }
-/* line 42, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .features h3 {
   font: bold 2.2rem "Source Sans Pro", sans-serif;
   display: inline;
 }
-/* line 46, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .features p {
   margin: 40px 0 90px 0;
 }
-/* line 49, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .features img {
   display: inline;
   float: left;
   margin-right: 10px;
   position: relative;
 }
-/* line 55, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .features .margin {
   margin-bottom: 50px;
   text-align: center;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .pricing {
   text-align: center;
 }
-/* line 62, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .pricing h2 {
-  font: bold 3.2rem "Source Sans Pro", sans-serif;
   color: black;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .kolo {
   width: 100px;
   height: 100px;
@@ -89,22 +106,22 @@ h1 {
   display: inline-block;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .img1 {
   background: url("../img/myimg1.png") no-repeat 50% 50%;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .img2 {
   background: url("../img/img2.png") no-repeat 50% 50%;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .img3 {
   background: url("../img/myimg3.png") no-repeat 50% 50%;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .fig1 {
   background: url(../img/mykomp1.png) no-repeat;
   height: 200px;
@@ -112,7 +129,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .fig2 {
   background: url(../img/mykomp2.png) no-repeat;
   height: 200px;
@@ -120,7 +137,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .fig3 {
   background: url(../img/mykomp3.png) no-repeat;
   height: 200px;
@@ -128,7 +145,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .fig4 {
   background: url(../img/mykomp4.png) no-repeat;
   height: 200px;
@@ -136,7 +153,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .fig6 {
   background: url(../img/mykomp5.png) no-repeat;
   height: 200px;
@@ -144,7 +161,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .fig5 {
   background: url(../img/mykomp6.png) no-repeat;
   height: 200px;
@@ -152,7 +169,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .fig7 {
   background: url(../img/mykomp7.png) no-repeat;
   height: 200px;
@@ -160,7 +177,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .fig8 {
   background: url(../img/mykomp8.png) no-repeat;
   height: 200px;
@@ -168,7 +185,7 @@ h1 {
   margin: 10px;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .btn-flat {
   padding: 11px 30px;
   border-radius: 0px;
@@ -177,28 +194,32 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
+/* line 144, ../sass/screen.scss */
+.btn-flat:hover {
+  background-color: black;
+  color: #fcdb00;
+  transition: 1s cubic-bezier(0.6, 0.1, 0.15, 0.8);
+}
 
-/* line 130, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .our-works {
   margin-top: 70px;
 }
-/* line 132, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .our-works h2 {
   text-align: center;
 }
-/* line 135, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .our-works p {
   text-align: center;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .gallery {
   text-align: center;
 }
-/* line 141, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .gallery .fig-wrap {
   display: inline-block;
   float: none;
-  text-align: none;
-  margin-right: -4px;
 }

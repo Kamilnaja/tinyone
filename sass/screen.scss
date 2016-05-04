@@ -2,31 +2,47 @@ $yellow: #fcdb00;
 $source: 'Source Sans Pro', sans-serif;
 @import '../stylesheets/bootstrap.min.css';
 
+
 nav.navbar {
 	background-color: $yellow;
 	height: 140px;
-	box-sizing: border-box;
-	line-height: 140px;
+	padding-top: 61px;
 	text-align: center;
 	button {
 		position: relative;
 		bottom: 114px; 
 	}
 }
-html {
-	font-style: 62.5%;
+.navbar-default {
+	border: 0;
 }
+html {
+	font-size: 62.5%;
+}
+
 h1 {
-	display: inline;
+
 	font: bold 3.0rem $source;
 	text-transform: lowercase;
+}
+h2 {
+	font: bold 3.8rem $source;
+}
+.icons {
+	list-style-type: none;
+	float: right;
+	li {
+		display: inline;
+		padding: 15px;
+		.fa {
+		font-size: 2.0rem;
+		}
+	}
 }
 .intro {
 	background-color: $yellow;
 	padding: 360px 0 140px 0;
-	h2 {
-		font: bold 3.8rem $source;
-	}
+	
 	p {
 		max-width: 480px;
 		margin: 40px auto;
@@ -37,7 +53,6 @@ h1 {
 	text-align: justify;
 	h2 {
 		margin-top: 120px;
-		font: bold 3.2rem $source;
 	}
 	h3 {
 		font: bold 2.2rem $source;
@@ -60,7 +75,7 @@ h1 {
 .pricing {
 	text-align: center;
 	h2 {
-		font: bold 3.2rem $source;
+
 		color: black;
 	}
 }
@@ -126,6 +141,11 @@ h1 {
 	border: 2px solid black;
 	text-transform: uppercase;
 	font-weight: bold;
+		&:hover {
+			background-color: black;
+			color: $yellow;
+			transition: 1s cubic-bezier(0.6, 0.1, 0.15, 0.8);
+		}
 }
 .our-works {
 	margin-top: 70px;
@@ -141,8 +161,7 @@ text-align: center;
 	.fig-wrap {
 		display: inline-block;
 		float: none;
-		text-align: none;
-		margin-right: -4px;
+
 
 	}
 }
